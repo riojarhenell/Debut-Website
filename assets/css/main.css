@@ -551,7 +551,7 @@ h6 {
 }
 
 .footer .footer-top {
-  padding-top: 50px;
+  padding-top: 5px;
 }
 
 .footer .footer-about .logo {
@@ -589,6 +589,7 @@ h6 {
   color: var(--accent-color);
   margin-right: 10px;
   transition: 0.3s;
+  margin-top: 40px;
 }
 
 .footer .social-links a:hover {
@@ -791,7 +792,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 35px 0;
   scroll-margin-top: 100px;
   overflow: clip;
 }
@@ -1738,7 +1739,7 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-item+.info-item {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .contact .info-item i {
@@ -2072,6 +2073,17 @@ section,
   font-size: 25px !important; /* Base font size for larger screens */
 }
 
+.cinzel-subs {
+  font-family: Raleway, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px !important; /* Base font size for larger screens */
+
+  color: var(--default-color);
+  position: relative;
+}
+
 .great-vibes-regular {
   font-family: "Great Vibes", serif;
   font-weight: 500;
@@ -2091,6 +2103,47 @@ section,
   font-style: normal;
 }
 
+.contact .info-item+.info-items {
+  margin-top: 20px;
+}
+
+.info-items i {
+  font-size: 20px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  border-radius: 4px;
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 50%);
+  font-size: 16px;
+  color: var(--accent-color);
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.info-items i:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  border-color: var(--accent-color);
+}
+
+.location-img {
+  max-width: 28%; 
+  height: auto;
+}
+
+.invitation-img {
+  max-width: 15%; 
+  height: auto;
+}
+
+.carouselAuto {
+  max-width: 45%; 
+  max-height: 100%;
+}
+
 @media (max-width: 1200px) {
   .luxurious-script-regular {
     font-size: 82px !important; /* Adjust size for medium screens */
@@ -2102,6 +2155,21 @@ section,
 
   .great-vibes-regular {
     font-size: 53px !important; /* Further reduce size for extra small screens */
+  }
+
+  .location-img {
+    max-width: 35%; /* Adjust size for medium screens */
+    height: auto;
+  }
+
+  .invitation-img {
+    max-width: 25%; 
+    height: auto;
+  }
+
+  .carouselAuto {
+    max-width: 65%; 
+    max-height: 100%;
   }
 }
 
@@ -2116,6 +2184,21 @@ section,
 
   .great-vibes-regular {
     font-size: 43px !important; /* Further reduce size for extra small screens */
+  }
+
+  .location-img {
+    max-width: 44%; 
+    height: auto;
+  }
+
+  .invitation-img {
+    max-width: 35%; 
+    height: auto;
+  }
+
+  .carouselAuto {
+    max-width: 80%; 
+    max-height: 100%;
   }
 }
 
@@ -2134,5 +2217,20 @@ section,
 
   .cormorant-sc-regular .alice-regular{
     font-size: 24px !important; /* Further reduce size for extra small screens */
+  }
+
+  .location-img {
+    max-width: 55%; 
+    height: auto;
+  }
+
+  .invitation-img {
+    max-width: 40%; 
+    height: auto;
+  }
+
+  .carouselAuto {
+    max-width: 100%; 
+    max-height: 100%;
   }
 }
